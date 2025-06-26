@@ -4,16 +4,16 @@ void main()
 {
     //wap to print odd no. from 1 to N using while loop .
 
-    int N;
+    int n;
     int i = 1;
 
     printf("Enter the value of N = ");//user input the variable
-    scanf("%d", &N);//user input 
+    scanf("%d", &n);//user input 
  
     // increment condition.
-    while (i <= N)
+    while (i <= n)
     {
-        if(i % 2 != 0)
+        if(i % 2 == 1)
         {
             printf("%d\n",i);  //output the result
         }
