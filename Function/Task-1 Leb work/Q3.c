@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
 
+// wap to print multiplication table of n. using funtion
+
 void table(int n)
 {
     int i;
