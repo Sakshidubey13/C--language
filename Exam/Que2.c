@@ -1,37 +1,48 @@
 #include<stdio.h>
 #include<string.h>
-int main()
+
+/*Develop a c Program That reads a sentence from the user .
+Create a function To count the occurences of each consonant in the sentence and display the counts*/
+
+int isConsonant(char ch)
 {
-    // find frequncy of each character
+    ch = tolower(ch);
+    return (ch >= 'a' && ch <= 'z') &&
+           (ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u');
+}
 
-    char name[20];
-    int frequncy = 1;
+void countConsonants(char str[])
+{
+    int freq[26] = {0};
 
-     printf("Enter your name : ");
-     gets(name);
-    
-    int length = strlen(name);
-
-    for(int i=0; i<length; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
-        for(int j=i+1; j<length; j++)
+        char ch = tolower(str[i]);
+
+        if (isConsonant(ch))
         {
-            if(name[i]==name[j])
-            {
-                frequncy++;
-                name[j] = 0;
-            }
+            freq[ch - 'a']++;
         }
-        if(name[i]!=0)
-        {
-            printf("%c = %d\n",name[i],frequncy);
-        }
-        frequncy = 1;
     }
 
-    
-    
+    printf("Consonant occurrences:\n");
+    for (int i = 0; i < 26; i++)
+    {
+        if (freq[i] > 0)
+        {
+            printf("%c = %d\n", 'a' + i, freq[i]);
+        }
+    }
+}
 
+int main()
+{
+    char sentence[1000];
+
+    printf("Enter a sentence: ");
+    fgets(sentence, sizeof(sentence), stdin); 
+
+    countConsonants(sentence);
 
     return 0;
 }
