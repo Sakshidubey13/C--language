@@ -1,30 +1,34 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 
+//  Write a Program to check if a given number is divisible by both 3 and 5 or not by using a function.
 
-void main()
-
+void div(int n)
 {
-    int num;
-
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (num % 3 == 0 && num % 5 == 0)
+    if (n % 3 == 0 &&n % 5 == 0)
     {
-        printf(" It is Divisable for 3 and 5 !");
+        printf("The Number is divisable by both 3 & 5 .");
     }
-    else if(num % 3 == 0)
+    else if (n % 3 == 0)
     {
-        printf("Divisable for 3");
+        printf("The number is divisable by 3.");
     }
-     else if(num % 5 == 0)
-    {
-        printf("Divisable for 5");
-    }
-    else
-    {
-       printf(" It is Not divisable for 3 and 5 !");
-    }
+    else if (n % 5 == 0)
+        {
+            printf("The number is divisable by 5.");
+        }
+        else
+        {
+           printf("The Number is not divisable by both 3 & 5 .");
+        }
 }
 
+void main()
+{
+    int n;
+
+    printf("Enter any Number : ");
+    scanf("%d", &n);
+
+    div(n);
+}
