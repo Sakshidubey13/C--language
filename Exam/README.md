@@ -4,7 +4,8 @@
 <br>
 
 #output --> Que 2.
-<img width="996" height="307" alt="Screenshot 2025-08-06 193746" src="https://github.com/user-attachments/assets/eaa59376-c322-464a-bc46-9d6e5a7b5db0" />
+<img width="1276" height="293" alt="Screenshot 2025-08-06 205902" src="https://github.com/user-attachments/assets/43fe57bf-46aa-43fe-8469-af74c5744320" />
+
 <br>
 <br>
 
