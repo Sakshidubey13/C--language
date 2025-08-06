@@ -1,26 +1,38 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
+void main()
 {
     //write a c pogram that uses pointer to find the sum of two 1 D arrays.
-    
-    int i,n,sum = 0; 
 
-    printf("Enter Size of Array : ");
-    scanf("%d",&n);
+    int n, i;
 
-    int a[n];
+    printf("Enter the size of arrays: ");
+    scanf("%d", &n);
 
-    for(i=0;i<n;i++)
+    int a[n], b[n], sum[n];
+
+    printf("Enter elements of first array:\n");
+    for (i = 0; i < n; i++)
     {
-        printf("Enter a[%d] : ", i);
-        scanf("%d", &a[i]);
-
-        sum = sum + a[i];
-
+        printf("arr[%d] =  ", i);
+        scanf("%d", (a + i));
     }
 
-    printf("Sum os all Array Element is : %d", sum);
+    printf("Enter elements of second array:\n");
+    for (i = 0; i < n; i++)
+    {
+        printf("arr[%d] = ", i);
+        scanf("%d", (b + i));
+    }
 
+    for (i = 0; i < n; i++)
+    {
+        *(sum + i) = *(a + i) + *(b + i);
+    }
 
+    printf("Sum of the arrays:\n");
+    for (i = 0; i < n; i++)
+    {
+        printf("sum[%d] = %d\n", i, *(sum + i));
+    }
 }
