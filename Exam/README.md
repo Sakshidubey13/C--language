@@ -9,7 +9,7 @@
 <br>
 
 #output --> Que 3. 
-<img width="984" height="309" alt="Screenshot 2025-08-06 193145" src="https://github.com/user-attachments/assets/abe67293-1a73-49aa-b509-5822251a30b6" />
+<img width="1398" height="306" alt="Screenshot 2025-08-06 201837" src="https://github.com/user-attachments/assets/b7fa85a6-8d52-4d52-b8f3-5267b5018b0f" />
 <br>
 <br>
 
