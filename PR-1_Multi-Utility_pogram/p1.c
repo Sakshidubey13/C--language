@@ -1,5 +1,4 @@
-#include<stdio.h>// Standard input output header file.
-#include<conio.h>
+#include<stdio.h>// Standard input output header file.
 
 void main()
 {
