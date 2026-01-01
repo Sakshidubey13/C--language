@@ -3,7 +3,7 @@
 
 void main()
 {
-    //Write C pogram to convert Temperature F rom degree Celsius to Fahrenheit.(f=(9/5*c)+32)
+    //Write C pogram to convert Temperature F rom degree Celsius to Fahrenheit.(f=(9/5*c)+32).
 
     int celsius;//declared int variable
     float fah;//declared float variable
