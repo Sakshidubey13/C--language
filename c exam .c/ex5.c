@@ -1,5 +1,5 @@
 #include<stdio.h>
-#inclide
+#inclide<conio>
 void main()
 {
          //5. Write C program to calculate factorial of a number.
