@@ -12,6 +12,7 @@ void main()
 
     int i, j, k;
 
+
     for (i = 5; i >= 1; i--) // outer rows (from 5 to 1)
     {
         for (k = 1; k < i; k++)
