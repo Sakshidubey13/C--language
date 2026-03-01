@@ -11,6 +11,7 @@ void main()
     //   2 3 4 5
     // 1 2 3 4 5
 
+
     int i, j, k; // declare variable
 
     for (i = 5; i >= 1; i--) // output row
