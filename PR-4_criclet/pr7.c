@@ -11,6 +11,8 @@ void main()
     //*
     //*
 
+
+
     int i, j; // declaration variable
     for (i = 1; i <= 5; i++) // outer row explain
     {
