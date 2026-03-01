@@ -11,6 +11,7 @@ void main()
     // 41 42 43 44
     // 41 42 43 44  45
 
+
     int i, j;//declaration variable
 
     for (i = 41; i <= 45; i++)//outer loop row
