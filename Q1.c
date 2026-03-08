@@ -4,7 +4,7 @@
 
 void cube(int n)
 {
-    int c = n * n * n;
+    int c = n * n * n;// formula 
     printf("Cube is : %d", c);
 }
 
