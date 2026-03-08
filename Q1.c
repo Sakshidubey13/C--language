@@ -1,4 +1,4 @@
-#include <stdio.h>// standard input output 
+#include <stdio.h>// standard input output header
 
 // Q.1 Write a Program to find the cube of a given number using UDF.
 
