@@ -10,6 +10,7 @@ void main()
     char name[100];
     int lenght = 0, i;
 
+
     printf("Enter your name :  ");
     scanf("%s", name);
 
