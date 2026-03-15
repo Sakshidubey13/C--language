@@ -16,8 +16,7 @@ void main()
     while (name[lenght] != '\0')
     {
         lenght++;
-    }
-
+    }
     printf("Reverse name : ");
 
     for (i = lenght - 1; i >= 0; i--)
