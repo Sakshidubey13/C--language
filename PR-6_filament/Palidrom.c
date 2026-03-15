@@ -23,7 +23,6 @@ void main()
     for (i = lenght - 1; i >= 0; i--)
     {
         printf("%c", name[i]);
-    }
-
+    }
     printf("\n");
 }
