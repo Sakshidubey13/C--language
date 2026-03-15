@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//standard input output header file 
 #include <conio.h>
 
 /*Dvelop a program that checks
