@@ -8,8 +8,7 @@ void main()
     float fah;//declared float variable
 
     printf("Enter Degree in Celsius : ");//input massge for celsius
-    scanf("%d", &celsius);
-
+    scanf("%d", &celsius);
     fah=(celsius*9/5) + 32;//Converted Celsius to Fahrenheit....
 
     printf("Fahrenheit = %f ",fah);//to print value of Fahrenheit....
