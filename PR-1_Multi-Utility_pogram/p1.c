@@ -14,5 +14,4 @@ void main()
 
     printf("Fahrenheit = %f ",fah);//to print value of Fahrenheit....
 
-
 }
