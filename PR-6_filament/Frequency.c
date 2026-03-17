@@ -13,8 +13,7 @@ void main()
     printf("Enter a name : ");
     gets(str);
 
-    int j;
-
+    int j;
     for (i = 'a'; i <= 'z'; i++)
     {
         freq = 0;
