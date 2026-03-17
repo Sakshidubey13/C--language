@@ -13,8 +13,7 @@ void main()
 
 
     printf("Enter a name : ");
-    gets(str);
-
+    gets(str);
 
     int j;
 
