@@ -24,8 +24,7 @@ void main()
             {
                 freq++;
             }
-        }
-
+        }
         if (freq > 0)
         {
             printf("%c = %d\n", i, freq);
