@@ -9,8 +9,7 @@
 void main()
 {
     char str[100], i;
-    int freq = 0;
-
+    int freq = 0;
 
     printf("Enter a name : ");
     gets(str);
