@@ -3,8 +3,7 @@
 // frequency
 
   /*Extend the program to count the frequency of each 
-  character in a given string....*/
-
+  character in a given string....*/
 
 void main()
 {
