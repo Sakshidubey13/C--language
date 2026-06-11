@@ -19,6 +19,7 @@ void main()
     x = y; // value of variable y is assign in variable x
     y = z; // value of variable z is assign in variable y
 
+
     printf("\nX= %d\n", x); // to print value of variable x ex.x=10
     printf("Y= %d", y);     // to print value of variable y ex.y=20
 }
