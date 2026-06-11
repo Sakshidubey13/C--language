@@ -13,6 +13,7 @@ void main()
     printf("Enter a number Y: "); // Input message for Y
     scanf("%d", &y);              // User input to y
 
+
     x = x + y; // ex.x= 10+50 =60
     y = x - y; // y= 60-50 =10
     x = x - y; // x= 60-10= 50
