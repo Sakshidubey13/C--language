@@ -13,5 +13,6 @@ void main()
 
     fah = (celsius * 9 / 5) + 32; // Converted Celsius to Fahrenheit
 
+
     printf("Fahrenheit = %f", fah); // to print Fahrenheit
 }
